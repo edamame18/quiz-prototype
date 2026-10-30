@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: quiz-prototype
+    runtime: python
+    plan: free
+    buildCommand: ""
+    startCommand: python server.py
